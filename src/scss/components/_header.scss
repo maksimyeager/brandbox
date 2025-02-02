@@ -1,0 +1,87 @@
+.header {
+    padding-top: 15px;
+    padding-inline: 15px;
+    background-color: #fff;
+    position: relative;
+
+    @media (max-width: 990px) {
+        .language-selector{
+            display: none;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+        @media (max-width: 576px) {
+            gap: 60px;
+        }
+    }
+
+    &__logo {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        background-color: #140f13;
+
+        img {
+            max-width: 250px;
+            width: 100%;
+            z-index: 10;
+            position: relative;
+
+            @media (max-width: 576px) {
+                max-width: 200px;
+            }
+        }
+
+        &::before {
+            // content: "";
+            position: absolute;
+            top: 0;
+            left: -100%; /* Начинаем от края */
+            background-color: #140f13;
+            width: calc(100% + 100px); /* Растягиваем за пределы логотипа */
+            height: 100%;
+            z-index: 1;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-width: 74px 0px 0px 74px; /* верх, справа, низ, слева */
+            border-style: solid;
+            border-color: transparent transparent transparent #140f13;
+        }
+    }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+
+        a {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 990px) {
+            display: none;
+        }
+    }
+
+    &__btn {
+        display: none;
+
+        @media (max-width: 990px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

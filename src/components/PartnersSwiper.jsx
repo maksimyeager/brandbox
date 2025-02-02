@@ -1,0 +1,47 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
+import "swiper/css/effect-fade";
+import partnerImg from "../assets/partner.jpg";
+
+const PartnersSwiper = () => {
+    return (
+        <Swiper
+            className="partners-swiper"
+            spaceBetween={30}
+            slidesPerView={3}
+            breakpoints={{
+                320:{
+                    slidesPerView: 3,
+                },
+                576:{
+                    slidesPerView: 4,
+                },
+                768:{
+                    slidesPerView: 5,
+                },
+                900:{
+                    slidesPerView: 6,
+                },
+                1024:{
+                    slidesPerView: 7,
+                }
+            }}
+
+            loop={true}
+            autoplay={{ delay: 3000 }}
+            effect="fade"
+            modules={[Navigation, Autoplay]}
+        >
+            {new Array(20).fill(null).map((_, index) => (
+                <SwiperSlide key={index}>
+                    <img src={partnerImg} alt="Partner" />
+                </SwiperSlide>
+            ))}
+        </Swiper>
+    );
+};
+
+export default PartnersSwiper;
