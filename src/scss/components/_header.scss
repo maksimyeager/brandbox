@@ -4,17 +4,35 @@
     background-color: #fff;
     position: relative;
 
+    &::before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px; /* Чтобы не выходило за границы */
+        width: calc(100% - 30px); /* Растягиваем на всю ширину экрана */
+        height: calc(100% - 15px);
+        max-width: 1110px;
+        background-color: #140f13; /* Черный фон */
+        z-index: 1;
+        border-radius: 53px 0 0 0;
+    }
+
     @media (max-width: 990px) {
-        .language-selector{
+        .language-selector {
             display: none;
         }
     }
 
     .container {
+        position: relative;
+        z-index: 5;
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 30px;
+        padding-left: 0px;
+        background-color: #fff;
 
         @media (max-width: 576px) {
             gap: 60px;
@@ -38,16 +56,17 @@
             }
         }
 
-        &::before {
-            // content: "";
-            position: absolute;
-            top: 0;
-            left: -100%; /* Начинаем от края */
-            background-color: #140f13;
-            width: calc(100% + 100px); /* Растягиваем за пределы логотипа */
-            height: 100%;
-            z-index: 1;
-        }
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     right: 0;
+        //     background-color: #140f13;
+        //     width: calc(100% + 30px); /* Растягиваем за пределы логотипа */
+        //     height: 100%;
+        //     z-index: 1;
+        //     border-radius: 53px 0 0 0;
+        // }
 
         &::after {
             content: "";
