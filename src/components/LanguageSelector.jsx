@@ -18,15 +18,17 @@ const LanguageSelector = () => {
     };
 
     // Список доступных языков
-    const languages = ["ru", "en", "az",];
+    const languages = ["az", "ru", "en"];
 
     // Исключаем текущий язык из списка
-    const availableLanguages = languages.filter((lang) => lang !== i18n.language);
+    const availableLanguages = languages.filter(
+        (lang) => lang !== i18n.language
+    );
 
     return (
         <div className="language-selector">
             <div className="language-toggle" onClick={toggleDropdown}>
-                {i18n.language.toLocaleUpperCase()} <FaChevronDown/>
+                {i18n.language.toLocaleUpperCase()} <FaChevronDown />
             </div>
             {isOpen && (
                 <ul className="language-menu">
