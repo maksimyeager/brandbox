@@ -9,12 +9,12 @@ const MobileNavbar = ({ open, onClose }) => {
     const { t } = useTranslation("global");
 
     const mobileNavbarLinks = [
-        { name: t("navbar.about-us"), path: "/about-us" },
-        { name: t("navbar.partners"), path: "/partners" },
-        { name: t("navbar.mission"), path: "/mission" },
-        { name: t("navbar.products"), path: "/products" },
+        { name: t("mobile-navbar.about-us"), path: "/about-us" },
+        { name: t("mobile-navbar.partners"), path: "/partners" },
+        { name: t("mobile-navbar.mission"), path: "/mission" },
+        { name: t("mobile-navbar.products"), path: "/products" },
     ];
-
+    
     useEffect(() => {
         if (open) {
             document.body.classList.add("no-scroll");

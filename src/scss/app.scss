@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body.no-scroll{
+body.no-scroll {
     overflow: hidden;
 }
 
@@ -84,7 +84,7 @@ a.link-2 {
     }
 
     &:hover::after {
-        content: "Ətraflı";
+        content: attr(data-text);
         position: absolute;
         top: 50%;
         left: 50%;

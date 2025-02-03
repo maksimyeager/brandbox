@@ -1,33 +1,20 @@
 import Banner from "../components/Banner";
 import aboutCompanyImg from "../assets/image.png";
+import { useTranslation } from "react-i18next";
+
 const AboutUs = () => {
+    const { t } = useTranslation("global");
+
     return (
         <>
-            <Banner title={"Haqqımızda"} />
+            <Banner title={t("header.about-us")} />
             <div className="about-us">
                 <div className="container">
                     <div className="about-us-info">
-                        <h2 className="title-1">
-                            Sed ut perspiciatis unde omnis
-                        </h2>
+                        <h2 className="title-1">{t("about-us.about-info")}</h2>
                         <div className="about-us-info__desc">
-                            <p>
-                                At vero eos et accusamus et iusto odio
-                                dignissimos ducimus qui blanditiis praesentium
-                                voluptatum deleniti atque corrupti quos dolores
-                                et quas molestias excepturi sint occaecati
-                                cupiditate non provident, similique sunt in
-                                culpa qui officia deserunt mollitia animi, id
-                                est laborum et dolorum fuga.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.
-                            </p>
+                            <p>{t("about-us.about-info-desc-1")}</p>
+                            <p>{t("about-us.about-info-desc-2")}</p>
                         </div>
                     </div>
 
@@ -36,63 +23,46 @@ const AboutUs = () => {
                             <img src={aboutCompanyImg} alt="" />
                         </div>
                         <div className="about-company-info">
-                            <h2 className="title-1">About our company</h2>
-                            <p>
-                                Voluptatem accusantium doloremque laudantium,
-                                totam rem aperiam, eaque ipsa quae ab illo
-                                inventore.
-                            </p>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae
-                                ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo. At vero eos
-                                et accusamus et iusto odio dignissimos ducimus
-                                qui blanditiis praesentium voluptatum deleniti
-                                atque corrupti quos dolores et quas molestias
-                                exceptur.
-                            </p>
+                            <h2 className="title-1">Shabnam Sarab</h2>
+                            <p>{t("about-us.shabnam-sarab-desc-1")}</p>
+                            <p>{t("about-us.shabnam-sarab-desc-2")}</p>
                         </div>
                     </div>
                     <div className="about-us-achivments">
-                        <h2 className="title-1">Lorem ipsum dolor sit amet</h2>
+                        <h2 className="title-1">
+                            {t("about-us.ambition-title")}
+                        </h2>
                         <div className="achivments__wrapper">
                             <div className="achivment">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat.
+                                    <span>
+                                        {t("about-us.ambition-1-title")}
+                                    </span>
+                                    {t("about-us.ambition-1")}
                                 </p>
                             </div>
                             <div className="achivment">
                                 <p>
-                                    Sed ut perspiciatis unde omnis iste natus
-                                    error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa
-                                    quae abwert.
+                                    <span>
+                                        {t("about-us.ambition-2-title")}
+                                    </span>
+                                    {t("about-us.ambition-2")}
                                 </p>
                             </div>
                             <div className="achivment">
                                 <p>
-                                    At vero eos et accusamus et iusto odio
-                                    dignissimos ducimus qui blanditiis
-                                    praesentium voluptatum deleniti atque
-                                    corrupti quos dolores et quas molestias
-                                    excepturi sint.
+                                    <span>
+                                        {t("about-us.ambition-3-title")}
+                                    </span>
+                                    {t("about-us.ambition-3")}
                                 </p>
                             </div>
                             <div className="achivment">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat.
+                                    <span>
+                                        {t("about-us.ambition-4-title")}
+                                    </span>
+                                    {t("about-us.ambition-4")}
                                 </p>
                             </div>
                         </div>

@@ -4,47 +4,51 @@ import icon2 from "../assets/Group 14.svg";
 import icon3 from "../assets/Group 15.svg";
 import { Link } from "react-router-dom";
 import PartnersSwiper from "../components/PartnersSwiper";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+    const { t } = useTranslation("global");
     return (
         <>
             <div className="home-banner">
                 <div className="home-banner__wrapper">
                     <div className="container">
                         <h1>
-                            Ən yüksək keyfiyyət <br /> <span>BrandBox-da!</span>
+                            {t("home-banner.title-1")}
+                            <br />
+                            {t("home-banner.title-2")}
+                            <br />
+
+                            <span> {t("home-banner.brandbox")}</span>
                         </h1>
-                        <p>
+                        {/* <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed <br /> do eiusmod tempor incididunt ut
                             labore et dolore magna <br /> aliqua. Ut enim ad
                             minim venia...
-                        </p>
-                        <Link to={"/about-us"} className="link-1">
-                            Ətraflı
+                        </p> */}
+                        <Link
+                            to={"/about-us"}
+                            className="link-1"
+                            data-text={t("button.more")}
+                        >
+                            {t("button.more")}
                         </Link>
                     </div>
                 </div>
             </div>
             <section className="section section--about-us">
                 <div className="container">
-                    <h2 className="title-1">Şirkətimiz Haqqında</h2>
+                    <h2 className="title-1">{t("home.about-us")}</h2>
                     <div className="about-us__wrapper">
                         <div className="about-us__info">
-                            <p>
-                                Voluptatem accusantium doloremque laudantium,
-                                totam rem aperiam, eaque ipsa quae ab illo
-                                inventore.
-                            </p>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae
-                                ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo....
-                            </p>
-                            <Link to={"/about-us"} className="link-2">
-                                Ətraflı
+                            <p>{t("home.about-us-desc")}</p>
+                            <Link
+                                to={"/about-us"}
+                                className="link-2"
+                                data-text={t("button.more")}
+                            >
+                                {t("button.more")}
                             </Link>
                         </div>
                         <div className="about-us__image">
@@ -54,11 +58,8 @@ const Home = () => {
                 </div>
             </section>
             <section className="section section--partners">
-                <h2 className="title-1">Bizim Partnyorlarımız</h2>
-                <p className="section__subtitle">
-                    “Brandbox” MMC olaraq, respublikada tanınmış <br />
-                    şirkətlər ilə partnyorluq edirik.
-                </p>
+                <h2 className="title-1">{t("home.partners")}</h2>
+                <p className="section__subtitle">{t("home.partners-desc")}</p>
                 <div className="partners__wrapper">
                     <div className="partners__slider">
                         <PartnersSwiper />
@@ -67,47 +68,51 @@ const Home = () => {
             </section>{" "}
             <section className="section section--mission">
                 <div className="container">
-                    <h2 className="title-1">Missiyamız və Vizyonumuz</h2>
+                    <h2 className="title-1">{t("home.mission")}</h2>
                     <p className="section__subtitle">
-                        Davamlı inkişaf və yenilik üçün yol <br /> xəritəmiz
+                        {t("home.mission-desc")}
                     </p>
                     <div className="mission__wrapper">
                         <div className="mission">
                             <div className="mission__img">
                                 <img src={icon} alt="" />
                             </div>
-                            <h2 className="mission__title">Missiyamız</h2>
+                            <h2 className="mission__title">
+                                {t("home.mission-block-title")}
+                            </h2>
                             <p className="mission__desc">
-                                Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium doloremque
-                                laudantium, totam...
+                                {t("home.mission-block-desc")}
                             </p>
                         </div>
                         <div className="mission">
                             <div className="mission__img">
                                 <img src={icon2} alt="" />
                             </div>
-                            <h2 className="mission__title">Vizyonumuz</h2>
+                            <h2 className="mission__title">
+                                {t("home.vision-block-title")}
+                            </h2>
                             <p className="mission__desc">
-                                Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium doloremque
-                                laudantium, totam...
+                                {t("home.vision-block-desc")}
                             </p>
                         </div>
                         <div className="mission">
                             <div className="mission__img">
                                 <img src={icon3} alt="" />
                             </div>
-                            <h2 className="mission__title">Dəyərlərimiz</h2>
+                            <h2 className="mission__title">
+                                {t("home.values-block-title")}
+                            </h2>
                             <p className="mission__desc">
-                                Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium doloremque
-                                laudantium, totam...
+                                {t("home.values-block-desc")}
                             </p>
                         </div>
                     </div>
-                    <Link to={"/mission"} className="link-2">
-                        Ətraflı
+                    <Link
+                        to={"/mission"}
+                        className="link-2"
+                        data-text={t("button.more")}
+                    >
+                        {t("button.more")}
                     </Link>
                 </div>
             </section>

@@ -6,7 +6,7 @@
         display: flex;
         align-items: center;
 
-        padding: 60px 0;
+        padding: 120px 0;
         background-color: #140f13;
         height: calc(100vh - 110px);
         border-radius: 0 53px 53px 53px;
@@ -14,13 +14,15 @@
 
         .container {
             width: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         h1 {
             font-size: 56px;
             font-weight: 600;
             line-height: 1.13;
-            margin-bottom: 15px;
+            margin-bottom: 60px;
 
             @media (max-width: 768px) {
                 font-size: 36px;
@@ -92,6 +94,11 @@
                 flex-direction: column;
                 gap: 15px;
                 padding: 60px 30px;
+
+                @media (max-width: 768px) {
+                    padding: 30px;
+                    gap: 30px;
+                }
 
                 p {
                     font-size: 15px;

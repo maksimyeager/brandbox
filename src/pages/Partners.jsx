@@ -1,16 +1,19 @@
 import Banner from "../components/Banner";
-
 import partner from "../assets/partner.jpg";
+import { useTranslation } from "react-i18next";
+import { partners } from "../services/partners";
 
 const Partners = () => {
+    const { t } = useTranslation("global");
+
     return (
         <>
-            <Banner title={"Partners"} />
+            <Banner title={t("header.partners")} />
             <div className="partners">
                 <div className="container">
-                    {new Array(20).fill(0).map((item, index) => (
+                    {partners.map((item, index) => (
                         <div key={index} className="partner">
-                            <img src={partner} alt="" />
+                            <img src={item.imgUrl} alt={item.name} />
                         </div>
                     ))}
                 </div>

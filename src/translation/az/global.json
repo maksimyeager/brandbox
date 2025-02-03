@@ -1,1 +1,70 @@
-[{}]
+{
+    "button": {
+        "more": "Ətraflı"
+    },
+    "header": {
+        "about-us": "Haqqımızda",
+        "partners": "Partnyorlar",
+        "mission": "Missiyamız",
+        "products": "Məhsullarımız"
+    },
+    "footer": {
+        "pages": "Səhifələr",
+        "contact": "Əlaqə",
+        "about-us": "Haqqımızda",
+        "partners": "Partnyorlar",
+        "mission": "Missiyamız",
+        "products": "Məhsullarımız"
+    },
+    "mobile-navbar": {
+        "about-us": "Haqqımızda",
+        "partners": "Partnyorlar",
+        "mission": "Missiyamız",
+        "products": "Məhsullarımız"
+    },
+    "home-banner": {
+        "title-1": "Ən yüksək təcrübə",
+        "title-2": "və ən yüksək keyfiyyət",
+        "brandbox": "Brandbox-da!"
+    },
+    "home": {
+        "about-us": "Şirkətimiz haqqında",
+        "about-us-desc": "\"Brandbox\" MMC şirkəti artıq 15 ildir ki, FMCG bazarında uğurla fəaliyyət göstərir. Bu müddət ərzində biz Azərbaycan Respublikasının aparıcı şirkətləri ilə möhkəm tərəfdaşlıq münasibətləri qurmuşuq. Komandamızın peşəkarlığı və effektiv inkişaf strategiyası sayəsində sənayedə güclü mövqelər tuta bildik və həm təchizatçıların, həm də müştərilərin etibarını qazana bildik....",
+        "partners": "Bizim partnyorlarımız",
+        "partners-desc": "\"Brandbox\" MMC olaraq, respublikada tanınmış şirkətlər ilə partnyorluq edirik.",
+        "mission": "Missiyamız və vizyonumuz",
+        "mission-desc": "Davamlı inkişaf və innovasiya standartlarımız",
+        "mission-block-title": "Missiyamız",
+        "mission-block-desc": "Azərbaycan bazarında və onun hüdudlarından kənarda yüksək keyfiyyətli...",
+        "vision-block-title": "Vizyonumuz",
+        "vision-block-desc": "Süd istehsalına yenilik gətirən və həm yerli, həm də beynəlxalq bazarlarda yüksək...",
+        "values-block-title": "Dəyərlərimiz",
+        "values-block-desc": "Dürüstlük, məsuliyyət, mükəmməlliyə və davamlı inkişafa can atmaq, müştərilərin..."
+    },
+    "about-us": {
+        "about-info": "\"Brandbox\" MMC haqqında",
+        "about-info-desc-1": "\"Brandbox\" MMC şirkəti artıq 15 ildir ki, FMCG bazarında uğurla fəaliyyət göstərir. Bu müddət ərzində biz Azərbaycan Respublikasının aparıcı şirkətləri ilə möhkəm tərəfdaşlıq münasibətləri qurmuşuq. Komandamızın peşəkarlığı və effektiv inkişaf strategiyası sayəsində sənayedə güclü mövqelər tuta bildik və həm təchizatçıların, həm də müştərilərin etibarını qazana bildik. Biz təkcə çeşidin genişləndirilməsinə deyil, həm də dünya standartlarına cavab verən məhsulların keyfiyyətinin yüksəldilməsinə çalışırıq.",
+        "about-info-desc-2": "Fəaliyyətimizin əsas istiqaməti yüksək keyfiyyətli süd məhsullarının Azərbaycana idxalıdır. İstehsalçıları diqqətlə seçirik və istehlakçılara ən yaxşısını təqdim etmək üçün yalnız etibarlı tərəfdaşlarla işləyirik. Məhsullarımız ciddi təhlükəsizlik qaydalarına uyğundur və bazara çıxmazdan əvvəl bütün lazımi yoxlamalardan keçir. Bunun sayəsində süd məhsulları seqmentində əhəmiyyətli uğurlar qazana və mövqelərimizi möhkəmləndirə bildik.",
+        "shabnam-sarab-desc-1": "\"Brandbox\" şirkəti B2C, B2B və HoReCa da daxil olmaqla müxtəlif biznes seqmentlərində fəal fəaliyyət göstərir. Biz pərakəndə şəbəkələrlə uğurla əməkdaşlıq edirik, istehlakçıları keyfiyyətli süd məhsulları ilə təmin edirik, həmçinin iri korporativ müştərilərlə tərəfdaşlıq əlaqələri qururuq. Məhsullarımız, yüksək keyfiyyəti və təbiiliyinin xüsusilə qiymətləndirildiyi restoranlar, kafelər və otellər də daxil olmaqla iaşə sənayesində geniş istifadə olunur. Biz hər bir bazar seqmenti üçün etibarlı həllər təklif edərək, bütün bu istiqamətlərdə inkişaf edirik. ",
+        "shabnam-sarab-desc-2": "Əlavə olaraq, şirkət inkişafda əhəmiyyətli bir addım atdı və Shabnam Sarab süd zavodunda öz istehsalına başladı. Bu, xammaldan son məhsula qədər bütün mərhələlərdə məhsul keyfiyyətinə nəzarət etməyə imkan verir. İstehlakçılara təbii və sağlam süd məhsulları təqdim etmək üçün müasir texnologiya və yenilikçi həllər təqdim edirik. Gələcəkdə istehsal güclərinin daha da genişləndirilməsini və yeni məhsul xətlərinin hazırlanmasını planlaşdırırıq.",
+        "ambition-title": "Hədəflərimiz",
+        "ambition-1-title": "Məhsul çeşidinin genişləndirilməsi: ",
+        "ambition-1": "Müxtəlif bazar seqmentlərinin ehtiyaclarını qarşılamaq və daha geniş auditoriyaya çatmaq üçün yeni kateqoriyalar da daxil olmaqla süd məhsullarının çeşidini genişləndirməyə çalışırıq. Məqsədimiz xoşbəxt müştərilərimizdir.",
+        "ambition-2-title": "Beynəlxalq bazarlarda mövqelərin gücləndirilməsi: ",
+        "ambition-2": "Məhsulları beynəlxalq bazarlara çıxarmaq və şirkətin beynəlxalq ticarətdə tanınmış bir oyunçu olmasına imkan verəcək qlobal süd sənayesindəki payını artırmaq üçün ixrac kanallarını inkişaf etdiririk.",
+        "ambition-3-title": "B2B və HoReCa bazarlarında payın artması: ",
+        "ambition-3": "Böyük korporativ müştərilər, restoranlar və otellərlə tərəfdaşlığı inkişaf etdirmək, onlara eksklüziv həllər təklif etmək və geniş çeşidli Biznes xidmətləri üçün məhsulların mövcudluğunu yaxşılaşdırmaq, bununla da B2B və HoReCa seqmentlərində mövqeləri gücləndirmək bizim hədəflərimizdən biridir. \"Brandbox\" şirkəti digər müəssisələrlə də fəal əməkdaşlıq edir, məhsulların keyfiyyətini artırmaq üçün birgə inkişaf və tədqiqatlar aparır. Bu prosesdə bizə innovativ həllər tətbiq edən və məhsulların ən ciddi standartlara uyğunluğunu təmin edən yüksək ixtisaslı texnoloqlar kömək edir.",
+        "ambition-4-title": "İnnovativ texnologiyalar və davamlı istehsal: ",
+        "ambition-4": "Məhsulların yüksək keyfiyyətini təmin etmək və məsuliyyətli istehsalçının nüfuzunu artırmaq üçün ətraf mühit standartlarına və ətraf mühitə təsirlərin minimuma endirilməsinə diqqət yetirərək davamlı istehsalın qabaqcıl texnologiya və təcrübələrini tətbiq edirik."
+    },
+    "mission": {
+        "title": "Bizim Standartlarımız",
+        "desc": "Brandbox olaraq, biz dünya standarlarına uyğun standarlar ilə addım atırıq.",
+        "mission-block-title": "Missiyamız",
+        "mission-block-desc": "Azərbaycan bazarında və onun hüdudlarından kənarda yüksək keyfiyyətli süd məhsullarının aparıcı tədarükçüsü olmaq, istehlakçıları təbii və faydalı məhsullarla təmin etmək.",
+        "vision-block-title": "Vizyonumuz",
+        "vision-block-desc": "Süd istehsalına yenilik gətirən və həm yerli, həm də beynəlxalq bazarlarda yüksək keyfiyyət standartlarını təyin edən bir şirkət olmaq.",
+        "values-block-title": "Dəyərlərimiz",
+        "values-block-desc": "Dürüstlük, məsuliyyət, mükəmməlliyə və davamlı inkişafa can atmaq, müştərilərin ehtiyaclarına hörmət etmək və məhsullarımızın keyfiyyətinə qayğı göstərmək."
+    }
+}

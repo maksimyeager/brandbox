@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
 import partnerImg from "../assets/partner.jpg";
+import { partners } from "../services/partners";
 
 const PartnersSwiper = () => {
     return (
@@ -13,31 +14,30 @@ const PartnersSwiper = () => {
             spaceBetween={30}
             slidesPerView={3}
             breakpoints={{
-                320:{
+                320: {
                     slidesPerView: 3,
                 },
-                576:{
+                576: {
                     slidesPerView: 4,
                 },
-                768:{
+                768: {
                     slidesPerView: 5,
                 },
-                900:{
+                900: {
                     slidesPerView: 6,
                 },
-                1024:{
+                1024: {
                     slidesPerView: 7,
-                }
+                },
             }}
-
             loop={true}
             autoplay={{ delay: 3000 }}
             effect="fade"
             modules={[Navigation, Autoplay]}
         >
-            {new Array(20).fill(null).map((_, index) => (
+            {partners.map((item, index) => (
                 <SwiperSlide key={index}>
-                    <img src={partnerImg} alt="Partner" />
+                    <img src={item.imgUrl} alt={item.name} />
                 </SwiperSlide>
             ))}
         </Swiper>

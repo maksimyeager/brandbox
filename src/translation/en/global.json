@@ -1,3 +1,70 @@
-[{
-    
-}]
+{
+    "button": {
+        "more": "More"
+    },
+    "header": {
+        "about-us": "About Us",
+        "partners": "Partners",
+        "mission": "Mission",
+        "products": "Products"
+    },
+    "footer": {
+        "pages": "Pages",
+        "contact": "Contact",
+        "about-us": "About Us",
+        "partners": "Partners",
+        "mission": "Mission",
+        "products": "Products"
+    },
+    "mobile-navbar": {
+        "about-us": "About Us",
+        "partners": "Partners",
+        "mission": "Mission",
+        "products": "Products"
+    },
+    "home-banner": {
+        "title-1": "The highest experience",
+        "title-2": "and highest quality is in",
+        "brandbox": "Brandbox!"
+    },
+    "home": {
+        "about-us": "About our company",
+        "about-us-desc": "\"Brandbox\" LLC has been successfully operating in the FMCG market for 15 years. During this period, we have established strong partnerships with leading companies in the Republic of Azerbaijan. Thanks to the professionalism of our team and an effective development strategy, we were able to gain a strong position in the industry and gain the trust of both suppliers and customers…",
+        "partners": "Our partners",
+        "partners-desc": "As \"Brandbox\" LLC, we partner with well-known companies in the Azerbaijani Republic.",
+        "mission": "Our mission and vision",
+        "mission-desc": "Our roadmap for sustainable development and innovation",
+        "mission-block-title": "Mission",
+        "mission-block-desc": "To be a leading supplier of high-quality dairy products on the Azerbaijani market and beyond...",
+        "vision-block-title": "Vision",
+        "vision-block-desc": "Being a company that brings innovation to milk production and sets high quality…",
+        "values-block-title": "Values",
+        "values-block-desc": "Honesty, responsibility, striving for excellence and sustainable development..."
+    },
+    "about-us": {
+        "about-info": "About \"Brandbox\" LLC",
+        "about-info-desc-1": "\"Brandbox\" LLC Company has been successfully operating in the FMCG market for 15 years. During this period, we have established strong partnerships with leading companies in the Republic of Azerbaijan. Thanks to the professionalism of our team and an effective development strategy, we were able to gain a strong position in the industry and gain the trust of both suppliers and customers. We strive not only to expand our product range, but also to improve the quality of products that meet international standards.",
+        "about-info-desc-2": "Our main activity is the import of high—quality dairy products to Azerbaijan. We carefully select manufacturers and work only with reliable partners to offer consumers the best. Our products comply with strict safety standards and undergo all necessary inspections before entering the market. Thanks to this, we were able to achieve significant success and strengthen our position in the dairy segment.  ",
+        "shabnam-sarab-desc-1": "\"Brandbox\" is active in various business segments, including B2C, B2B and HoReCa. We successfully cooperate with retail chains, providing consumers with high-quality dairy products, as well as establishing partnerships with large corporate clients. Our products are widely used in the catering industry, including restaurants, cafes and hotels, where their high quality and naturalness are especially appreciated. We strive to develop in all these areas, offering reliable solutions for each market segment.  ",
+        "shabnam-sarab-desc-2": "In addition, the company has taken an important step in its development and launched its own production at the Shabnam Sarab dairy. This allows us to control product quality at all stages — from raw materials to the final product. We are implementing modern technologies and innovative solutions to offer consumers natural and healthy dairy products. In the future, we plan to further expand our production facilities and develop new product lines.",
+        "ambition-title": "Our ambitions",
+        "ambition-1-title": "Product Range Expansion: ",
+        "ambition-1": "Strive to expand the range of dairy products, including new categories such as organic and specialty products, in order to meet the needs of different market segments and attract a wider audience. Our goal is to have happy customers.",
+        "ambition-2-title": "Strengthening its position in international markets: ",
+        "ambition-2": "To develop export channels in order to bring products to international markets and increase its share in the global dairy industry, which will allow the company to become a recognized player in international trade",
+        "ambition-3-title": "Increasing market share in B2B and HoReCa: ",
+        "ambition-3": "Develop partnerships with large corporate clients, restaurants and hotels, offering them exclusive solutions and improving product availability for a wide range of business services, thereby strengthening positions in the B2B and HoReCa segments. \"Brandbox\" also actively cooperates with other enterprises, conducting joint development and research in order to improve product quality. In this process, we are assisted by highly qualified technologists who implement innovative solutions and ensure that our products meet the most stringent standards.",
+        "ambition-4-title": "Innovative technologies and sustainable production: ",
+        "ambition-4": "To implement advanced technologies and practices of sustainable production, focusing on environmental standards and minimizing environmental impacts, in order to ensure high quality products and strengthen the reputation of a responsible manufacturer."
+    },
+    "mission": {
+        "title": "Our Standarts",
+        "desc": "As a Brandbox, we step in with world-class standards..",
+        "mission-block-title": "Mission",
+        "mission-block-desc": "To be a leading supplier of high-quality dairy products in the Azerbaijan market and beyond, to provide consumers with natural and useful products.",
+        "vision-block-title": "Vision",
+        "vision-block-desc": "Being a company that brings innovation to milk production and sets high qualitystandards in both domestic and international markets.",
+        "values-block-title": "Values",
+        "values-block-desc": "Honesty, responsibility, striving for excellence and sustainable development, as well as respect for the needs of customers and concern for the quality of our products."
+    }
+}
