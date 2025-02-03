@@ -66,5 +66,8 @@
         "vision-block-desc": "Being a company that brings innovation to milk production and sets high qualitystandards in both domestic and international markets.",
         "values-block-title": "Values",
         "values-block-desc": "Honesty, responsibility, striving for excellence and sustainable development, as well as respect for the needs of customers and concern for the quality of our products."
+    },
+    "products": {
+        "desc": "Natural butter"
     }
 }

@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
-import partnerImg from "../assets/partner.jpg";
 import { partners } from "../services/partners";
 
 const PartnersSwiper = () => {

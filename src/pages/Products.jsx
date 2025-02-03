@@ -4,39 +4,41 @@ import productImg2 from "../assets/product-2.png";
 import productImg3 from "../assets/product-3.png";
 import productImg4 from "../assets/product-4.png";
 import productImg5 from "../assets/product-5.png";
-
-const products = [
-    {
-        title: "Qəmzə",
-        desc: "Təbii kərə yağı",
-        imageUrl: productImg,
-    },
-    {
-        title: "Netice",
-        desc: "Təbii kərə yağı",
-        imageUrl: productImg2,
-    },
-    {
-        title: "Asnaf",
-        desc: "Təbii kərə yağı",
-        imageUrl: productImg3,
-    },
-    {
-        title: "Sarzendeh",
-        desc: "Təbii kərə yağı",
-        imageUrl: productImg4,
-    },
-    {
-        title: "Vənək ",
-        desc: "Təbii kərə yağı",
-        imageUrl: productImg5,
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const Products = () => {
+    const { t } = useTranslation("global");
+
+    const products = [
+        {
+            title: "Qəmzə",
+            desc: t("products.desc"),
+            imageUrl: productImg,
+        },
+        {
+            title: "Netice",
+            desc: t("products.desc"),
+            imageUrl: productImg2,
+        },
+        {
+            title: "Asnaf",
+            desc: t("products.desc"),
+            imageUrl: productImg3,
+        },
+        {
+            title: "Sarzendeh",
+            desc: t("products.desc"),
+            imageUrl: productImg4,
+        },
+        {
+            title: "Vənək ",
+            desc: t("products.desc"),
+            imageUrl: productImg5,
+        },
+    ];
     return (
         <>
-            <Banner title="Məhsullarımız" />
+            <Banner title={t("header.products")} />
             <div className="products">
                 <div className="container">
                     <div className="products__wrapper">

@@ -49,16 +49,16 @@ const Footer = () => {
                         <h2 className="footer__block-title">{t("footer.contact")}</h2>
                         <ul className="footer__list">
                             <li>
-                                <Link className="footer__contact-link">
+                                <a href="tel:+994502211872" className="footer__contact-link">
                                     <FaPhoneAlt size={16} />
                                     <span>+994 50 221 18 72</span>
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link className="footer__contact-link">
+                                <a href="mailto:info@brandbox.az" className="footer__contact-link">
                                     <FaEnvelope size={16} />
                                     <span>info@brandbox.az</span>
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                         <ul className="footer__socials">

@@ -1,5 +1,4 @@
 import Banner from "../components/Banner";
-import partner from "../assets/partner.jpg";
 import { useTranslation } from "react-i18next";
 import { partners } from "../services/partners";
 
