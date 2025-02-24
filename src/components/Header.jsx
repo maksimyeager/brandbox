@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import logo from "../assets/logo-2.png";
-import burgerSvg from "../assets/burger.svg";
+import logo from "../assets/brandbox.png";
+import burgerSvg from "../assets/icons/burger.svg";
 import LanguageSelector from "./LanguageSelector";
 import MobileNavbar from "./MobileNavbar";
 

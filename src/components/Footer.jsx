@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import logo from "../assets/logo.png";
+import logo from "../assets/brandbox-2.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer__logo">
                         <Link to={"/"}>
-                            <img src={logo} alt="" />
+                            <img src={logo} alt="Brandox Logo" />
                         </Link>
                     </div>
                     <div className="footer__block">

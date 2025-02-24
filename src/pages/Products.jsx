@@ -1,9 +1,9 @@
 import Banner from "../components/Banner";
-import productImg from "../assets/product.png";
-import productImg2 from "../assets/product-2.png";
-import productImg3 from "../assets/product-3.png";
-import productImg4 from "../assets/product-4.png";
-import productImg5 from "../assets/product-5.png";
+import productImg1 from "../assets/products/product-1.png";
+import productImg2 from "../assets/products/product-2.png";
+import productImg3 from "../assets/products/product-3.png";
+import productImg4 from "../assets/products/product-4.png";
+import productImg5 from "../assets/products/product-5.png";
 import { useTranslation } from "react-i18next";
 
 const Products = () => {
@@ -13,7 +13,7 @@ const Products = () => {
         {
             title: "Qəmzə",
             desc: t("products.desc"),
-            imageUrl: productImg,
+            imageUrl: productImg1,
         },
         {
             title: "Netice",

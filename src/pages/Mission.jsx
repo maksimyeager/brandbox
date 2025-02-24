@@ -1,10 +1,10 @@
 import Banner from "../components/Banner";
-import icon from "../assets/Group 13.svg";
-import icon2 from "../assets/Group 14.svg";
-import icon3 from "../assets/Group 15.svg";
+import icon from "../assets/icons/target.svg";
+import icon2 from "../assets/icons/globe.svg";
+import icon3 from "../assets/icons/balance.svg";
 import { useTranslation } from "react-i18next";
 
-import aboutCompanyImg from "../assets/about-company.png";
+import aboutCompanyImg from "../assets/about-company-2.png";
 
 const Mission = () => {
     const { t } = useTranslation("global");

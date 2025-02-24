@@ -1,7 +1,8 @@
-import image from "../assets/image.png";
-import icon from "../assets/Group 13.svg";
-import icon2 from "../assets/Group 14.svg";
-import icon3 from "../assets/Group 15.svg";
+import aboutCompanyImg from "../assets/about-company.png";
+
+import icon from "../assets/icons/target.svg";
+import icon2 from "../assets/icons/globe.svg";
+import icon3 from "../assets/icons/balance.svg";
 import bannerImg from "../assets/banner.png";
 import { Link } from "react-router-dom";
 import PartnersSwiper from "../components/PartnersSwiper";
@@ -49,7 +50,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div className="about-us__image">
-                            <img src={image} alt="About Us" />
+                            <img src={aboutCompanyImg} alt="About Us" />
                         </div>
                     </div>
                 </div>

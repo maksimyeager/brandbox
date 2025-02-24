@@ -1,5 +1,5 @@
 import Banner from "../components/Banner";
-import aboutCompanyImg from "../assets/image.png";
+import aboutCompanyImg from "../assets/about-company.png";
 import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
