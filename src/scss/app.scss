@@ -25,6 +25,10 @@ body.no-scroll {
         border-radius: 0 30px 30px 30px;
         background-color: #140f13;
         padding: 60px 0;
+
+        @media (max-width: 768px) {
+            border-radius: 0 20px 20px 20px;
+        }
     }
 }
 

@@ -3,7 +3,11 @@
 
     &-info {
         .title-1 {
-            margin-bottom: 15px;
+            margin-bottom: 30px;
+
+            @media (max-width: 768px) {
+                text-align: center;
+            }
         }
 
         &__desc {
@@ -33,8 +37,8 @@
 
         @media (max-width: 768px) {
             display: flex;
-            flex-direction: column-reverse;
-            gap: 15px;
+            flex-direction: column;
+            gap: 30px;
         }
 
         &-info {
@@ -44,6 +48,11 @@
 
             .title-1 {
                 text-align: left;
+
+                @media (max-width: 768px) {
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
             }
             p {
                 font-size: 15px;
@@ -59,6 +68,10 @@
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+
+                @media (max-width: 768px) {
+                    border-radius: 30px;
+                }
             }
         }
     }
@@ -66,6 +79,10 @@
     &-achivments {
         .title-1 {
             margin-bottom: 30px;
+
+            @media (max-width: 768px) {
+                text-align: center;
+            }
         }
 
         .achivments__wrapper {
@@ -81,7 +98,7 @@
         .achivment {
             padding: 15px;
             border-left: 3px solid #140f13;
-            span{
+            span {
                 font-weight: 600;
             }
             p {

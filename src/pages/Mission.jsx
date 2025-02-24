@@ -60,7 +60,6 @@ const Mission = () => {
                             <img src={aboutCompanyImg} alt="" />
                         </div>
                     </div>
-                    .
                 </div>
             </div>
         </>

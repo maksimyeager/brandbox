@@ -2,6 +2,7 @@ import image from "../assets/image.png";
 import icon from "../assets/Group 13.svg";
 import icon2 from "../assets/Group 14.svg";
 import icon3 from "../assets/Group 15.svg";
+import bannerImg from "../assets/banner.png";
 import { Link } from "react-router-dom";
 import PartnersSwiper from "../components/PartnersSwiper";
 import { useTranslation } from "react-i18next";
@@ -13,27 +14,23 @@ const Home = () => {
             <div className="home-banner">
                 <div className="home-banner__wrapper">
                     <div className="container">
-                        <h1>
-                            {t("home-banner.title-1")}
-                            <br />
-                            {t("home-banner.title-2")}
-                            <br />
-
-                            <span> {t("home-banner.brandbox")}</span>
-                        </h1>
-                        {/* <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed <br /> do eiusmod tempor incididunt ut
-                            labore et dolore magna <br /> aliqua. Ut enim ad
-                            minim venia...
-                        </p> */}
-                        <Link
-                            to={"/about-us"}
-                            className="link-1"
-                            data-text={t("button.more")}
-                        >
-                            {t("button.more")}
-                        </Link>
+                        <div className="home-banner__info">
+                            <h1>
+                                {t("home-banner.title-1")}
+                                <span> {t("home-banner.brandbox")}</span>
+                            </h1>
+                            <Link
+                                to={"/about-us"}
+                                className="link-1"
+                                data-text={t("button.more")}
+                            >
+                                {t("button.more")}
+                            </Link>
+                        </div>
+                        <div className="home-banner__img">
+                            <div className="home-banner__img--overlay"></div>
+                            <img src={bannerImg} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

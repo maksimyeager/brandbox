@@ -11,6 +11,10 @@
         }
 
         @media (max-width: 576px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 375px) {
             grid-template-columns: 1fr;
         }
     }
@@ -24,6 +28,10 @@
                 height: 100%;
                 object-fit: cover;
                 border-radius: 53px;
+
+                @media (max-width: 768px) {
+                    border-radius: 30px;
+                }
             }
         }
 
