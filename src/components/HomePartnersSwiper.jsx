@@ -36,7 +36,9 @@ const HomePartnersSwiper = () => {
         >
             {partners.map((item, index) => (
                 <SwiperSlide key={index}>
-                    <img src={item.imgUrl} alt={item.name} />
+                    <div className="partners__slider-image">
+                        <img src={item.imgUrl} alt={item.name} />
+                    </div>
                 </SwiperSlide>
             ))}
         </Swiper>

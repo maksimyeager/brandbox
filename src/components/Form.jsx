@@ -35,7 +35,7 @@ const Form = () => {
                         type="text"
                         name="fullName"
                         id="fullName"
-                        placeholder="Jhon Doe"
+                        placeholder="John Doe"
                         required
                     />
                 </div>

@@ -60,7 +60,91 @@
     &__swiper {
         display: flex;
         align-items: center;
-        gap: 90px;
+        gap: clamp(1.875rem, -9.375rem + 20vw, 5.625rem);
+    }
+
+    &__slide {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        height: 100%;
+        border: 3px solid #00000063;
+        padding: 30px 60px;
+        border-radius: 24px;
+
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr;
+            padding: 20px;
+            border-radius: 18px;
+        }
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+
+        @media (max-width: 576px) {
+            justify-content: start;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.13;
+        }
+
+        p {
+            font-size: 15px;
+            letter-spacing: 0.02rem;
+            color: #626262;
+        }
+    }
+
+    &__image {
+        display: flex;
+
+        @media (max-width: 576px) {
+            justify-content: center;
+        }
+    }
+
+    &__products {
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.13;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__products-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    &__product {
+        overflow: hidden;
+        border-radius: 23px;
+
+        @media (max-width: 576px) {
+            border-radius: 11px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 }
 
@@ -70,7 +154,7 @@
     &__swiper {
         display: flex;
         align-items: center;
-        gap: 60px;
+        gap: clamp(1.875rem, -9.375rem + 20vw, 5.625rem);
     }
 
     &__slide {

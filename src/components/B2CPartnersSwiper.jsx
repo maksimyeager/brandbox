@@ -29,14 +29,34 @@ const B2CPartnersSwiper = () => {
                 .filter((item) => item.type === "b2c")
                 .map((item, index) => (
                     <SwiperSlide key={index}>
-                        <div className="b2b-partners__slide">
-                            <div className="b2b-partners__slide-image">
-                                <img src={item.imgUrl} alt={item.name} />
+                        <div className="b2c-partners__slide">
+                            <div className="b2c-partners__main">
+                                <div className="b2c-partners__image">
+                                    <img src={item.imgUrl} alt={item.name} />
+                                </div>
+                                <div className="b2c-partners__info">
+                                    <h2>{item.name}</h2>
+                                    {item.descKey && <p>{t(item.descKey)}</p>}
+                                </div>
                             </div>
-                            <div className="b2b-partners__slide-info">
-                                <h2>{item.name}</h2>
-                                {item.descKey && <p>{t(item.descKey)}</p>}
-                            </div>
+                            {item.productsImg && (
+                                <div className="b2c-partners__products">
+                                    <h2>Products</h2>
+
+                                    <div className="b2c-partners__products-list">
+                                        {item.productsImg.map((item, index) => {
+                                            return (
+                                                <div
+                                                    key={index}
+                                                    className="b2c-partners__product"
+                                                >
+                                                    <img src={item} />
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </SwiperSlide>
                 ))}

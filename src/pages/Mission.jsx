@@ -60,6 +60,7 @@ const Mission = () => {
                         <div className="mission__about-company-info">
                             <h2 className="title-1">{t("home.about-us")}</h2>
                             <p>{t("about-us.about-info-desc-1")}</p>
+                            <p>{t("about-us.about-info-desc-2")}</p>
                         </div>
                         <div className="mission__about-company-img">
                             <img src={aboutCompanyImg} alt="" />
