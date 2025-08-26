@@ -13,7 +13,7 @@
         padding: 0 15px;
 
         @media (max-width: 768px) {
-            border-radius: 0 20px 20px 20px;
+            border-radius: 0 23px 23px 23px;
             height: auto;
             max-height: none;
             padding: 30px 0;
@@ -78,7 +78,6 @@
         max-width: 500px;
         width: 100%;
         position: relative;
-        z-index: 10;
         border-radius: 30px;
         overflow: hidden;
 
@@ -92,6 +91,8 @@
             bottom: 0;
             left: 0;
             right: 0;
+            z-index: 10;
+            pointer-events: none;
 
             background: linear-gradient(
                 90deg,
@@ -149,7 +150,7 @@
                     display: flex;
                     flex-direction: column-reverse;
                     gap: 30px;
-                    border-radius: 20px;
+                    border-radius: 23px;
                     padding: 20px;
                 }
             }
@@ -189,7 +190,7 @@
                     object-fit: cover;
 
                     @media (max-width: 768px) {
-                        border-radius: 30px;
+                        border-radius: 23px;
                     }
                 }
             }
@@ -230,6 +231,7 @@
 
             @media (max-width: 768px) {
                 align-items: center;
+                border-radius: 23px;
             }
 
             &__wrapper {

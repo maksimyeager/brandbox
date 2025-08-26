@@ -1,0 +1,59 @@
+.form {
+    width: 100%;
+    background-color: #140f13;
+    padding: 40px 40px 30px;
+    border-radius: 43px;
+
+    @media (max-width: 576px) {
+        border-radius: 23px;
+        padding: 20px 20px 15px;
+    }
+
+    &__row {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 15px;
+
+        @media (max-width: 576px) {
+            flex-direction: column;
+        }
+    }
+
+    &__block {
+        flex: 1;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        background-color: #fff;
+        color: #140f13;
+        padding: 12px 18px;
+        border-radius: 16px;
+
+        &::placeholder {
+            color: #b1b1b1;
+        }
+    }
+
+    textarea {
+        height: 120px;
+        resize: none;
+    }
+
+    button {
+        display: block;
+        background-color: #fff;
+        color: #140f13;
+        border-radius: 20px;
+        width: 150px;
+        height: 45px;
+        margin: 0 auto;
+    }
+}

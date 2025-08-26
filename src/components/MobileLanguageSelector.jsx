@@ -10,7 +10,7 @@ const MobileLanguageSelector = () => {
     };
 
     // Список доступных языков
-    const languages = ["az", "ru", "en"];
+    const languages = ["az", "en", "ru"];
 
     return (
         <div className="mobile-language-selector">

@@ -6,11 +6,12 @@
         "about-us": "Haqqımızda",
         "partners": "Partnyorlar",
         "mission": "Missiyamız",
-        "products": "Məhsullarımız"
+        "products": "Məhsullarımız",
+        "contact-us": "Əlaqə"
     },
     "footer": {
         "pages": "Səhifələr",
-        "contact": "Əlaqə",
+        "contact-us": "Əlaqə",
         "about-us": "Haqqımızda",
         "partners": "Partnyorlar",
         "mission": "Missiyamız",
@@ -20,7 +21,8 @@
         "about-us": "Haqqımızda",
         "partners": "Partnyorlar",
         "mission": "Missiyamız",
-        "products": "Məhsullarımız"
+        "products": "Məhsullarımız",
+        "contact-us": "Əlaqə"
     },
     "home-banner": {
         "title-1": "Ən yüksək təcrübə və ən yüksək keyfiyyət",
@@ -28,7 +30,7 @@
     },
     "home": {
         "about-us": "Şirkətimiz haqqında",
-        "about-us-desc": "\"Brandbox\" MMC şirkəti artıq 15 ildir ki, FMCG bazarında uğurla fəaliyyət göstərir. Bu müddət ərzində biz Azərbaycan Respublikasının aparıcı şirkətləri ilə möhkəm tərəfdaşlıq münasibətləri qurmuşuq. Komandamızın peşəkarlığı və effektiv inkişaf strategiyası sayəsində sənayedə güclü mövqelər tuta bildik və həm təchizatçıların, həm də müştərilərin etibarını qazana bildik....",
+        "about-us-desc": "Biz \"Brandbox\" MMC olaraq artıq 15 ildir ki, FMCG sektorunda fəaliyyət göstəririk. Bu müddətdə Azərbaycanın aparıcı şirkətləri ilə etibarlı tərəfdaşlıq qurmuş, həm təchizatçıların, həm də müştərilərin rəğbətini qazanmışıq. Peşəkar komandamız və davamlı inkişaf strategiyamız sayəsində bu sahədə möhkəm mövqe qazanmış və süd məhsullarında xidmət və keyfiyyət baxımından dünya standartlarına uyğun səviyyəyə yüksəlmişik.",
         "partners": "Bizim partnyorlarımız",
         "partners-desc": "\"Brandbox\" MMC olaraq, respublikada tanınmış şirkətlər ilə partnyorluq edirik.",
         "mission": "Missiyamız və vizyonumuz",
@@ -42,10 +44,9 @@
     },
     "about-us": {
         "about-info": "\"Brandbox\" MMC haqqında",
-        "about-info-desc-1": "\"Brandbox\" MMC şirkəti artıq 15 ildir ki, FMCG bazarında uğurla fəaliyyət göstərir. Bu müddət ərzində biz Azərbaycan Respublikasının aparıcı şirkətləri ilə möhkəm tərəfdaşlıq münasibətləri qurmuşuq. Komandamızın peşəkarlığı və effektiv inkişaf strategiyası sayəsində sənayedə güclü mövqelər tuta bildik və həm təchizatçıların, həm də müştərilərin etibarını qazana bildik. Biz təkcə çeşidin genişləndirilməsinə deyil, həm də dünya standartlarına cavab verən məhsulların keyfiyyətinin yüksəldilməsinə çalışırıq.",
-        "about-info-desc-2": "Fəaliyyətimizin əsas istiqaməti yüksək keyfiyyətli süd məhsullarının Azərbaycana idxalıdır. İstehsalçıları diqqətlə seçirik və istehlakçılara ən yaxşısını təqdim etmək üçün yalnız etibarlı tərəfdaşlarla işləyirik. Məhsullarımız ciddi təhlükəsizlik qaydalarına uyğundur və bazara çıxmazdan əvvəl bütün lazımi yoxlamalardan keçir. Bunun sayəsində süd məhsulları seqmentində əhəmiyyətli uğurlar qazana və mövqelərimizi möhkəmləndirə bildik.",
-        "shabnam-sarab-desc-1": "\"Brandbox\" şirkəti B2C, B2B və HoReCa da daxil olmaqla müxtəlif biznes seqmentlərində fəal fəaliyyət göstərir. Biz pərakəndə şəbəkələrlə uğurla əməkdaşlıq edirik, istehlakçıları keyfiyyətli süd məhsulları ilə təmin edirik, həmçinin iri korporativ müştərilərlə tərəfdaşlıq əlaqələri qururuq. Məhsullarımız, yüksək keyfiyyəti və təbiiliyinin xüsusilə qiymətləndirildiyi restoranlar, kafelər və otellər də daxil olmaqla iaşə sənayesində geniş istifadə olunur. Biz hər bir bazar seqmenti üçün etibarlı həllər təklif edərək, bütün bu istiqamətlərdə inkişaf edirik. ",
-        "shabnam-sarab-desc-2": "Əlavə olaraq, şirkət inkişafda əhəmiyyətli bir addım atdı və Shabnam Sarab süd zavodunda öz istehsalına başladı. Bu, xammaldan son məhsula qədər bütün mərhələlərdə məhsul keyfiyyətinə nəzarət etməyə imkan verir. İstehlakçılara təbii və sağlam süd məhsulları təqdim etmək üçün müasir texnologiya və yenilikçi həllər təqdim edirik. Gələcəkdə istehsal güclərinin daha da genişləndirilməsini və yeni məhsul xətlərinin hazırlanmasını planlaşdırırıq.",
+        "about-info-desc-1": "Biz \"Brandbox\" MMC olaraq artıq 15 ildir ki, FMCG sektorunda fəaliyyət göstəririk. Bu müddətdə Azərbaycanın aparıcı şirkətləri ilə etibarlı tərəfdaşlıq qurmuş, həm təchizatçıların, həm də müştərilərin rəğbətini qazanmışıq.",
+        "about-info-desc-2": "Peşəkar komandamız və davamlı inkişaf strategiyamız sayəsində bu sahədə möhkəm mövqe qazanmış və süd məhsullarında xidmət və keyfiyyət baxımından dünya standartlarına uyğun səviyyəyə yüksəlmişik.",
+        "shabnam-sarab-desc-1": "Fəaliyyətimizin mərkəzində yüksək keyfiyyətli süd məhsullarının Azərbaycana idxalı dayanır. Əməkdaşlıq etdiyimiz “Shabnam Sarab” zavodunda hər bir məhsul təcrübəli texnoloqlar və mütəxəssislərin birgə fəaliyyəti ilə, yüksək keyfiyyətli və xüsusi reseptlər əsasında diqqətlə hazırlanır. Keyfiyyətə verdiyimiz önəm bizi yalnız etibarlı və nüfuzlu tərəfdaşlarla birgə çalışmağa sövq edir. Məqsədimiz sizə dadı və keyfiyyəti ilə seçilən, tam güvənə biləcəyiniz məhsullar təqdim etməkdir. Süd məhsullarımız satışa təqdim olunmazdan əvvəl ciddi təhlükəsizlik və keyfiyyət yoxlamalarından keçir. Bu yanaşma bizə bazarda uğur qazanmağa və alıcı etimadını möhkəmləndirməyə imkan verir.",
         "ambition-title": "Hədəflərimiz",
         "ambition-1-title": "Məhsul çeşidinin genişləndirilməsi: ",
         "ambition-1": "Müxtəlif bazar seqmentlərinin ehtiyaclarını qarşılamaq və daha geniş auditoriyaya çatmaq üçün yeni kateqoriyalar da daxil olmaqla süd məhsullarının çeşidini genişləndirməyə çalışırıq. Məqsədimiz xoşbəxt müştərilərimizdir.",
@@ -68,5 +69,40 @@
     },
     "products": {
         "desc": "Təbii kərə yağı"
+    },
+    "contact-us": {
+        "title": "Bizim İlə Әlaqə Saxla!",
+        "desc": "Bizimlə əlaqə saxlayaraq suallarınızı verə və xidmətlərimiz haqqında daha ətraflı məlumat ala bilərsiniz. Rahat və sürətli ünsiyyət üçün aşağıdakı vasitələrlə bizə yazın!",
+        "mail": "Mail",
+        "phone": "Nömrələmiz",
+        "socials": "Sosial şəbəkələrimiz"
+    },
+    "form": {
+        "fullName": "Ad və soyad",
+        "phone": "Əlaqə nömrəsi",
+        "email": "E-Poçt ünvanı",
+        "message": "Mətn",
+        "btn": "Göndər",
+        "success": "Məlumatlarınız uğurla göndərildi! Biz yaxın vaxtlarda sizinlə əlaqə saxlayacağıq.",
+        "error": "Xəta baş verdi. Zəhmət olmasa, bir daha cəhd edin."
+    },
+    "partners": {
+        "araz-desc": "Araz marketlər şəbəkəsinə təqdim etdiyimiz məhsullara böyük çeşid kərə yağlar daxildir: Dehgah, Zanossi, Tedai, Caygah.",
+        "bravo-desc": "Bravo marketlər şəbəkəsinə təqdim etdiyimiz məhsullara böyük çeşid kərə yağlar daxildir: Dehgah, Vənək, Qəmzə.",
+        "bazar-store--desc": "Bazarstore marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağları daxildir: Dehgah, Vənək.",
+        "tamstore-desc": "Tamstore marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağı daxildir: Dehgah.",
+        "rahat-desc": "Rahat Supermarketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağı daxildir: Dehgah.",
+        "a-plus-desc": "A plus marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağları daxildir: Dehgah, Vənək.",
+        "neptun-desc": "Neptun marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağları daxildir: Dehgah, Vənək.",
+        "oba-desc": "OBA marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağı daxildir: Zanossi.",
+        "al-market-desc": "AL Market marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağı daxildir: Vənək.",
+        "qayali-desc": "Qayalı marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağları daxildir: Dehgah, Vənək.",
+        "azersun-desc": "Azersun Holding ilə əməkdaşlığımız qarşılıqlı etimad və peşəkar yanaşma üzərində qurulub. Brandbox olaraq, şirkəti yüksək keyfiyyətli kərə yağı ilə təmin edirik.",
+        "milla-desc": "Milla ilə tərəfdaşlığımız davamlılıq və məsuliyyət prinsipləri əsasında qurulub. Brandbox şirkəti yüksək keyfiyyətli kərə yağı və quru süd ilə Milla-nı təmin edir",
+        "iceland-desc": "Iceland ilə tərəfdaşlığımız şəffaflıq və etibarlılıq üzərində qurulub. Brandbox şirkəti yüksək keyfiyyətli kərə yağı və quru süd ilə Iceland-ı təmin edir.",
+        "millennium-desc": "Millenium ilə əməkdaşlığımız uzunmüddətlilik və qarşılıqlı hörmət üzərində qurulub. Brandbox olaraq, şirkəti premium keyfiyyətli kərə yağı və quru süd ilə təmin edirik.",
+        "merano-desc": "Merano ilə olan əməkdaşlığımız biznes münasibətlərində şəffaflıq və peşəkar yanaşma ilə dəyərlənir. Brandbox şirkəti Merano-nu premium kərə yağı ilə təmin edir.",
+        "allbuy-desc": "Allbuy ilə əməkdaşlığımız uzunmüddətli etimad və keyfiyyət prinsiplərinə əsaslanır. Brandbox, Allbuy-u seçilmiş kərə yağı ilə təmin edir.",
+        "haci-turqay-desc": "Hacıturqay ilə tərəfdaşlığımız peşəkarlıq və qarşılıqlı hörmət əsasında formalaşıb. Brandbox olaraq, şirkəti premium kərə yağı və quru süd ilə təmin edirik."
     }
 }

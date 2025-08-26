@@ -1,39 +1,87 @@
+import { useEffect } from "react";
 import Banner from "../components/Banner";
-import productImg1 from "../assets/products/product-1.png";
-import productImg2 from "../assets/products/product-2.png";
-import productImg3 from "../assets/products/product-3.png";
-import productImg4 from "../assets/products/product-4.png";
-import productImg5 from "../assets/products/product-5.png";
+import dehgah from "../assets/products/dehgah.png";
+import venek from "../assets/products/venek.png";
+import mrGolden from "../assets/products/mr-golden.png";
+import zanossi from "../assets/products/zanossi.png";
+import qemze from "../assets/products/qemze.png";
+import tedai from "../assets/products/tedai.png";
+import viderno from "../assets/products/viderno.png";
+import millikano from "../assets/products/millikano.png";
+import caygah from "../assets/products/caygah.png";
+import elay from "../assets/products/elay.png";
+import netice from "../assets/products/netice.png";
+import qenimet from "../assets/products/qenimet.png";
+
 import { useTranslation } from "react-i18next";
 
 const Products = () => {
     const { t } = useTranslation("global");
 
+    useEffect(() => {
+        document.title = `${t("header.products")} - Brandbox`;
+    }, [t]);
+
     const products = [
+        {
+            title: "Dehgah",
+            desc: t("products.desc"),
+            imageUrl: dehgah,
+        },
+        {
+            title: "Vənək",
+            desc: t("products.desc"),
+            imageUrl: venek,
+        },
+        {
+            title: "Mr.Golden",
+            desc: t("products.desc"),
+            imageUrl: mrGolden,
+        },
+        {
+            title: "Zanossi",
+            desc: t("products.desc"),
+            imageUrl: zanossi,
+        },
         {
             title: "Qəmzə",
             desc: t("products.desc"),
-            imageUrl: productImg1,
+            imageUrl: qemze,
+        },
+        {
+            title: "Tedai",
+            desc: t("products.desc"),
+            imageUrl: tedai,
+        },
+        {
+            title: "Viderno",
+            desc: t("products.desc"),
+            imageUrl: viderno,
+        },
+        {
+            title: "Millikano",
+            desc: t("products.desc"),
+            imageUrl: millikano,
+        },
+        {
+            title: "Caygah",
+            desc: t("products.desc"),
+            imageUrl: caygah,
+        },
+        {
+            title: "Elay",
+            desc: t("products.desc"),
+            imageUrl: elay,
         },
         {
             title: "Netice",
             desc: t("products.desc"),
-            imageUrl: productImg2,
+            imageUrl: netice,
         },
         {
-            title: "Asnaf",
+            title: "Qənimət",
             desc: t("products.desc"),
-            imageUrl: productImg3,
-        },
-        {
-            title: "Sarzendeh",
-            desc: t("products.desc"),
-            imageUrl: productImg4,
-        },
-        {
-            title: "Vənək ",
-            desc: t("products.desc"),
-            imageUrl: productImg5,
+            imageUrl: qenimet,
         },
     ];
     return (

@@ -29,8 +29,8 @@
                 object-fit: cover;
                 border-radius: 53px;
 
-                @media (max-width: 768px) {
-                    border-radius: 30px;
+                @media (max-width: 1024px) {
+                    border-radius: 23px;
                 }
             }
         }

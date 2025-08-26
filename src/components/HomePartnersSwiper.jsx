@@ -6,7 +6,7 @@ import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
 import { partners } from "../services/partners";
 
-const PartnersSwiper = () => {
+const HomePartnersSwiper = () => {
     return (
         <Swiper
             className="partners-swiper"
@@ -43,4 +43,4 @@ const PartnersSwiper = () => {
     );
 };
 
-export default PartnersSwiper;
+export default HomePartnersSwiper;

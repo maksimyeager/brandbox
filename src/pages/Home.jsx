@@ -1,15 +1,19 @@
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import aboutCompanyImg from "../assets/about-company.png";
-
 import icon from "../assets/icons/target.svg";
 import icon2 from "../assets/icons/globe.svg";
 import icon3 from "../assets/icons/balance.svg";
 import bannerImg from "../assets/banner.png";
-import { Link } from "react-router-dom";
-import PartnersSwiper from "../components/PartnersSwiper";
-import { useTranslation } from "react-i18next";
+import HomePartnersSwiper from "../components/HomePartnersSwiper";
 
 const Home = () => {
     const { t } = useTranslation("global");
+
+    useEffect(() => {
+        document.title = `Brandbox`;
+    }, [t]);
     return (
         <>
             <div className="home-banner">
@@ -60,7 +64,7 @@ const Home = () => {
                 <p className="section__subtitle">{t("home.partners-desc")}</p>
                 <div className="partners__wrapper">
                     <div className="partners__slider">
-                        <PartnersSwiper />
+                        <HomePartnersSwiper />
                     </div>
                 </div>
             </section>{" "}

@@ -1,9 +1,14 @@
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Banner from "../components/Banner";
 import aboutCompanyImg from "../assets/about-company.png";
-import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
     const { t } = useTranslation("global");
+
+    useEffect(() => {
+        document.title = `${t("header.about-us")} - Brandbox`;
+    }, [t]);
 
     return (
         <>
@@ -25,7 +30,6 @@ const AboutUs = () => {
                         <div className="about-company-info">
                             <h2 className="title-1">Shabnam Sarab</h2>
                             <p>{t("about-us.shabnam-sarab-desc-1")}</p>
-                            <p>{t("about-us.shabnam-sarab-desc-2")}</p>
                         </div>
                     </div>
                     <div className="about-us-achivments">

@@ -18,7 +18,7 @@ const LanguageSelector = () => {
     };
 
     // Список доступных языков
-    const languages = ["az", "ru", "en"];
+    const languages = ["az", "en", "ru"];
 
     // Исключаем текущий язык из списка
     const availableLanguages = languages.filter(

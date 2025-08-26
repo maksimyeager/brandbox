@@ -36,6 +36,11 @@ const Header = () => {
                         <li>
                             <Link to={"/products"}>{t("header.products")}</Link>
                         </li>
+                        <li>
+                            <Link to={"/contact-us"}>
+                                {t("header.contact-us")}
+                            </Link>
+                        </li>
                     </ul>
                     <div className="header__settings">
                         <LanguageSelector />

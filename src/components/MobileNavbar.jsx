@@ -13,8 +13,9 @@ const MobileNavbar = ({ open, onClose }) => {
         { name: t("mobile-navbar.partners"), path: "/partners" },
         { name: t("mobile-navbar.mission"), path: "/mission" },
         { name: t("mobile-navbar.products"), path: "/products" },
+        { name: t("mobile-navbar.contact-us"), path: "/contact-us" },
     ];
-    
+
     useEffect(() => {
         if (open) {
             document.body.classList.add("no-scroll");

@@ -1,13 +1,18 @@
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Banner from "../components/Banner";
 import icon from "../assets/icons/target.svg";
 import icon2 from "../assets/icons/globe.svg";
 import icon3 from "../assets/icons/balance.svg";
-import { useTranslation } from "react-i18next";
 
 import aboutCompanyImg from "../assets/about-company-2.png";
 
 const Mission = () => {
     const { t } = useTranslation("global");
+
+    useEffect(() => {
+        document.title = `${t("header.mission")} - Brandbox`;
+    }, [t]);
 
     return (
         <>

@@ -9,11 +9,11 @@
         position: absolute;
         top: 15px;
         left: 15px;
-        right: 15px; /* Чтобы не выходило за границы */
-        width: calc(100% - 30px); /* Растягиваем на всю ширину экрана */
+        right: 15px;
+        width: calc(100% - 30px);
         height: calc(100% - 15px);
         max-width: 1110px;
-        background-color: #140f13; /* Черный фон */
+        background-color: #140f13;
         z-index: 1;
         border-radius: 53px 0 0 0;
     }
@@ -107,7 +107,7 @@
     &__btn {
         display: none;
 
-        img{
+        img {
             max-width: 35px;
             width: 100%;
         }

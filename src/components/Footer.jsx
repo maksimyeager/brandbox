@@ -21,7 +21,9 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className="footer__block">
-                        <h2 className="footer__block-title">{t("footer.pages")}</h2>
+                        <h2 className="footer__block-title">
+                            {t("footer.pages")}
+                        </h2>
                         <ul className="footer__list">
                             <li>
                                 <Link to={"/about-us"}>
@@ -46,16 +48,24 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer__block">
-                        <h2 className="footer__block-title">{t("footer.contact")}</h2>
+                        <h2 className="footer__block-title">
+                            {t("footer.contact-us")}
+                        </h2>
                         <ul className="footer__list">
                             <li>
-                                <a href="tel:+994502211872" className="footer__contact-link">
+                                <a
+                                    href="tel:+994502211872"
+                                    className="footer__contact-link"
+                                >
                                     <FaPhoneAlt size={16} />
                                     <span>+994 50 221 18 72</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:info@brandbox.az" className="footer__contact-link">
+                                <a
+                                    href="mailto:info@brandbox.az"
+                                    className="footer__contact-link"
+                                >
                                     <FaEnvelope size={16} />
                                     <span>info@brandbox.az</span>
                                 </a>
@@ -63,19 +73,28 @@ const Footer = () => {
                         </ul>
                         <ul className="footer__socials">
                             <li>
-                                <Link>
+                                <a
+                                    href="https://www.facebook.com/"
+                                    target="_blank"
+                                >
                                     <FaFacebookF size={24} />
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link>
+                                <a
+                                    href="https://www.instagram.com/"
+                                    target="_blank"
+                                >
                                     <FaInstagram size={28} />
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link>
+                                <a
+                                    href="https://www.linkedin.com/"
+                                    target="_blank"
+                                >
                                     <FaLinkedinIn size={24} />
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>
