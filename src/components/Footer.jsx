@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import logo from "../assets/brandbox-2.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -74,18 +74,18 @@ const Footer = () => {
                         <ul className="footer__socials">
                             <li>
                                 <a
-                                    href="https://www.facebook.com/"
-                                    target="_blank"
-                                >
-                                    <FaFacebookF size={24} />
-                                </a>
-                            </li>
-                            <li>
-                                <a
                                     href="https://www.instagram.com/"
                                     target="_blank"
                                 >
                                     <FaInstagram size={28} />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/"
+                                    target="_blank"
+                                >
+                                    <FaTiktok size={24} />
                                 </a>
                             </li>
                             <li>

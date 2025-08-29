@@ -136,7 +136,7 @@ export const partners = [
         descKey: "partners.allbuy-desc",
     },
     {
-        name: "Haci Turqay",
+        name: "Hacı Turqay",
         imgUrl: haciTurqay,
         type: "b2b",
         descKey: "partners.haci-turqay-desc",

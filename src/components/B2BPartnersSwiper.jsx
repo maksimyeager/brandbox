@@ -30,10 +30,10 @@ const B2BPartnersSwiper = () => {
                 .map((item, index) => (
                     <SwiperSlide key={index}>
                         <div className="b2b-partners__slide">
-                            <div className="b2b-partners__slide-image">
+                            <div className="b2b-partners__image">
                                 <img src={item.imgUrl} alt={item.name} />
                             </div>
-                            <div className="b2b-partners__slide-info">
+                            <div className="b2b-partners__info">
                                 <h2>{item.name}</h2>
                                 {item.descKey && <p>{t(item.descKey)}</p>}
                             </div>

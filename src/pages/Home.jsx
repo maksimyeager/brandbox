@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import aboutCompanyImg from "../assets/about-company.png";
@@ -11,9 +10,6 @@ import HomePartnersSwiper from "../components/HomePartnersSwiper";
 const Home = () => {
     const { t } = useTranslation("global");
 
-    useEffect(() => {
-        document.title = `Brandbox`;
-    }, [t]);
     return (
         <>
             <div className="home-banner">

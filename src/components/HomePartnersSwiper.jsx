@@ -15,9 +15,11 @@ const HomePartnersSwiper = () => {
             breakpoints={{
                 320: {
                     slidesPerView: 3,
+                    spaceBetween: 15,
                 },
                 576: {
                     slidesPerView: 4,
+                    spaceBetween: 15,
                 },
                 768: {
                     slidesPerView: 5,
@@ -30,13 +32,17 @@ const HomePartnersSwiper = () => {
                 },
             }}
             loop={true}
-            autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 1500 }}
             effect="fade"
             modules={[Navigation, Autoplay]}
         >
             {partners.map((item, index) => (
                 <SwiperSlide key={index}>
-                    <div className="partners__slider-image">
+                    <div
+                        className={`partners__slider-image partners__slider-image--${
+                            index + 1
+                        }`}
+                    >
                         <img src={item.imgUrl} alt={item.name} />
                     </div>
                 </SwiperSlide>

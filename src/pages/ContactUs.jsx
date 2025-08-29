@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { FaFacebookF } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import Banner from "../components/Banner";
@@ -68,15 +68,7 @@ const ContactUs = () => {
                             <ul className="contact-us__socials">
                                 <li>
                                     <a
-                                        href="https://www.facebook.com/"
-                                        target="_blank"
-                                    >
-                                        <FaFacebookF size={24} color="#fff" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://www.instagram.com/"
+                                        href="https://www.instagram.com/dehgah.az/"
                                         target="_blank"
                                     >
                                         <FaInstagram size={28} color="#fff" />
@@ -84,7 +76,15 @@ const ContactUs = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.linkedin.com/"
+                                        href="https://www.tiktok.com/@dehgah.az"
+                                        target="_blank"
+                                    >
+                                        <FaTiktok size={24} color="#fff" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/company/brandboxaz/"
                                         target="_blank"
                                     >
                                         <FaLinkedinIn size={24} color="#fff" />

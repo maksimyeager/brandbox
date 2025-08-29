@@ -12,11 +12,34 @@ const Form = () => {
         message: "",
     });
 
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
     const onSubmit = async (e) => {
         e.preventDefault();
 
         try {
-            toast.success(t("form.success"));
+            const response = await fetch("https://formspree.io/f/xnnbjred", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                toast.success(t("form.success"));
+                setFormData({
+                    fullName: "",
+                    phone: "",
+                    email: "",
+                    message: "",
+                });
+            } else {
+                toast.error(t("form.error"));
+            }
         } catch (error) {
             console.error(error);
             toast.success(t("form.error"));
@@ -24,7 +47,7 @@ const Form = () => {
     };
 
     return (
-        <form action={""} className="form" onSubmit={onSubmit}>
+        <form className="form" onSubmit={onSubmit}>
             <div className="form__row">
                 <div className="form__block">
                     <label htmlFor="fullName">
@@ -36,9 +59,12 @@ const Form = () => {
                         name="fullName"
                         id="fullName"
                         placeholder="John Doe"
+                        value={formData.fullName}
+                        onChange={handleChange}
                         required
                     />
                 </div>
+
                 <div className="form__block">
                     <label htmlFor="phone">
                         {t("form.phone")}{" "}
@@ -49,10 +75,13 @@ const Form = () => {
                         name="phone"
                         id="phone"
                         placeholder="+994 ## ### ## ##"
+                        value={formData.phone}
+                        onChange={handleChange}
                         required
                     />
                 </div>
             </div>
+
             <div className="form__row">
                 <div className="form__block">
                     <label htmlFor="email">
@@ -64,17 +93,26 @@ const Form = () => {
                         name="email"
                         id="email"
                         placeholder="example@gmail.com"
+                        value={formData.email}
+                        onChange={handleChange}
                         required
                     />
                 </div>
             </div>
+
             <div className="form__row">
                 <div className="form__block">
                     <label htmlFor="message">
                         {t("form.message")}{" "}
                         <span style={{ color: "#FF1A1A" }}>*</span>
                     </label>
-                    <textarea name="message" id="message" required></textarea>
+                    <textarea
+                        name="message"
+                        id="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        required
+                    ></textarea>
                 </div>
             </div>
 
