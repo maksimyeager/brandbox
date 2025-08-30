@@ -87,6 +87,7 @@
         "error": "Xəta baş verdi. Zəhmət olmasa, bir daha cəhd edin."
     },
     "partners": {
+        "products": "Məhsullar",
         "araz-desc": "Araz marketlər şəbəkəsinə təqdim etdiyimiz məhsullara böyük çeşid kərə yağlar daxildir: Dehgah, Zanossi, Tedai, Caygah.",
         "bravo-desc": "Bravo marketlər şəbəkəsinə təqdim etdiyimiz məhsullara böyük çeşid kərə yağlar daxildir: Dehgah, Vənək, Qəmzə.",
         "bazar-store--desc": "Bazarstore marketlər şəbəkəsinə təqdim etdiyimiz məhsullara bu kərə yağları daxildir: Dehgah, Vənək.",
